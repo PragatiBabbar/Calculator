@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         bottomAnim= AnimationUtils.loadAnimation(this,R.anim.bottom_a);
 
         //hooks
-        image=findViewById(R.id.image);
+        image=findViewById(R.id.imageView);
         app=findViewById(R.id.app);
 
         image.setAnimation(topAnim);

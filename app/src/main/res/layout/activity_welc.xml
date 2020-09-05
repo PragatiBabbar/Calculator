@@ -17,10 +17,10 @@
     <TextView
         android:id="@+id/response_box"
         android:layout_width="370dp"
-        android:layout_height="120dp"
+        android:layout_height="90dp"
         android:layout_marginTop="12dp"
         android:layout_marginLeft="12dp"
-        android:textSize="30dp"
+        android:textSize="24dp"
 
         android:textAlignment="textEnd"
         android:paddingRight="10dp"
@@ -30,7 +30,7 @@
     <TextView
         android:id="@+id/answer_box"
         android:layout_width="370dp"
-        android:layout_height="110dp"
+        android:layout_height="60dp"
         android:layout_marginLeft="12dp"
         android:layout_below="@+id/response_box"
         android:textSize="40dp"
@@ -49,14 +49,6 @@
         android:gravity="center"
         android:layout_height="wrap_content">
 
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/simpleSwitch"
-        android:layout_marginStart="10dp"
-        android:shadowColor="@color/colorPrimary"
-        android:layout_above="@+id/all_clear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp" />
 
 
     <Button
@@ -111,7 +103,7 @@
         android:layout_marginLeft="35dp"
         android:layout_width="89dp"
         android:elevation="7dp"
-        android:background="@drawable/e_try_backgrund"
+        android:background="@drawable/operators_background"
         android:layout_height="80dp"
 
         android:layout_toRightOf="@+id/modulus"
@@ -168,7 +160,7 @@
         android:id="@+id/multiplication"
         android:layout_marginLeft="35dp"
         android:elevation="7dp"
-        android:background="@drawable/e_try_backgrund"
+        android:background="@drawable/operators_background"
         android:layout_width="89dp"
         android:layout_height="80dp"
         android:layout_below="@+id/division"
@@ -233,7 +225,7 @@
         android:text="-"
         android:textSize="40dp"
         android:elevation="7dp"
-        android:background="@drawable/e_try_backgrund"
+        android:background="@drawable/operators_background"
 
         android:layout_marginTop="5dp"
         android:layout_marginStart="35dp" />
@@ -291,7 +283,7 @@
         android:text="+"
         android:textSize="40dp"
         android:elevation="7dp"
-        android:background="@drawable/e_try_backgrund"
+        android:background="@drawable/operators_background"
 
         android:layout_marginTop="5dp"
         android:layout_marginStart="35dp" />
@@ -349,7 +341,7 @@
         android:layout_toRightOf="@+id/modulus"
         android:text="."
         android:elevation="7dp"
-        android:background="@drawable/e_try_backgrund"
+        android:background="@drawable/operators_background"
         android:textSize="40dp"
 
         android:layout_marginTop="5dp"
@@ -359,7 +351,9 @@
             android:layout_height="70dp"
             android:elevation="7dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/e_try_backgrund"
+            android:padding="2dp"
+            android:textColor="#FEFEFE"
+            android:background="@drawable/equal_to_b"
             android:textSize="40dp"
             android:gravity="center"
             android:text="="

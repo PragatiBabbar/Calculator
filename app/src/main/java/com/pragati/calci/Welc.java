@@ -20,7 +20,7 @@ public class Welc extends AppCompatActivity {
     char[] operators = {'+','-','*','/','%'};
     RelativeLayout lly;
 
-    SwitchCompat simpleSwitch;
+
     boolean Addition, Subtract, Multiplication, Division, mRemainder, decimal;
     Button allClear, backSpace, modulus, division, product, minus, plus, equalTo, one, two, three, four, five, six, seven, eight, nine, zero, decimalPt;
     @Override
@@ -28,22 +28,6 @@ public class Welc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welc);
         lly=findViewById(R.id.lly);
-        simpleSwitch =findViewById(R.id.simpleSwitch);
-
-
-        simpleSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    // The toggle is enabled
-
-
-                } else {
-                    // The toggle is disabled
-
-
-                }
-            }
-        });
 
 
 
